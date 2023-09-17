@@ -8,7 +8,7 @@ iris
 iris %>% ggplot(aes(y = Sepal.Length, x = Species)) + geom_boxplot()
 
 # Gráfico de Barras - Contagem de Espécies
-barplot(table(iris$Species), main = "Contagem de Espécies", xlab = "Espécies", ylab = "Contagem",)  # Usando cores diferentes para as três espécies
+barplot(table(iris$Species), main = "Contagem de Espécies", xlab = "Espécies", ylab = "Contagem",)  
 
 # Gráfico de dispersão 
 iris %>% ggplot(aes(x = Species, y = Sepal.Width)) + geom_point()
